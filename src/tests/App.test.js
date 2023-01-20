@@ -66,5 +66,6 @@ describe('Teste do componente App.js', () => {
 
     const errorMessage = screen.getByText(/Page requested not found/i);
     expect(errorMessage).toBeInTheDocument();
+    // console.log('errorMessage');
   });
 });
